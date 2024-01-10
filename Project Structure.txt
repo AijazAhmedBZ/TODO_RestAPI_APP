@@ -1,0 +1,42 @@
+project_root/
+│
+├── api/
+│   ├── main.py
+│   ├── database.py
+│   ├── models.py
+│   ├── crud.py
+│   ├── security.py
+│   └── api_v1/
+│       ├── __init__.py
+│       ├── endpoints/
+│       │   ├── __init__.py
+│       │   ├── todos.py
+│       │   └── auth.py
+│       └── dependencies/
+│           ├── __init__.py
+│           └── auth.py
+│
+├── streamlit_client/
+│   └── app.py
+│
+├── python_console_client/
+│   └── client.py
+│
+├── typescript_node_client/
+│   └── client.ts
+│
+├── tests/
+│   └── test_main.py
+│
+├── nextjs_fastapi_starter/
+│   ├── api/
+│   │   ├── api.ts
+│   │   └── [...next.js API routes]
+│   ├── pages/
+│   │   ├── index.tsx
+│   │   └── _app.tsx
+│   ├── [...other Next.js files]
+│   └── [...other Next.js folders]
+│
+├── requirements.txt
+└── README.md
